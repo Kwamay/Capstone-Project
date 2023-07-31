@@ -1,0 +1,182 @@
+@import url("https://fonts.googleapis.com/css2?family=Gothic+A1:wght@100;200;300;400;500;600;700;800;900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.summit-page {
+  background-color: #f4efef;
+  width: 100%;
+}
+
+.summit-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 4rem 0;
+}
+
+.presents {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 24px;
+  padding-bottom: 5rem;
+}
+
+.conference-intro {
+  text-align: center;
+  padding-bottom: 7rem;
+}
+
+.first-text {
+  text-align: center;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 28px;
+  color: #272a31;
+  border: 1px solid #272a31;
+  background-color: #fff;
+  padding: 12px 8px 26px;
+  width: 70%;
+  border-radius: 8px;
+  margin-bottom: 2rem;
+}
+
+.second-text {
+  text-align: center;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 28px;
+  color: #272a31;
+  width: 50%;
+  padding-bottom: 10px;
+}
+
+.mail {
+  color: #272a31;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.logo-page {
+  background-color: #fff;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid #272a31;
+}
+
+.logo-page-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 3rem;
+}
+
+.page-intro {
+  color: #272a31;
+  font-size: 35px;
+  font-weight: 600;
+  line-height: 30px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #ec5242;
+  margin-bottom: 3rem;
+}
+
+.logo-text {
+  text-align: center;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 28px;
+  color: #272a31;
+  width: 60%;
+}
+
+.logo-display {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid #272a31;
+  margin-top: 6rem;
+  border-radius: 6px;
+}
+
+.past-summit {
+  background-color: #f4efef;
+  padding-bottom: 2rem; 
+}
+
+.past-summit-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 3rem; 
+}
+
+.summit-text {  
+  color: #272a31;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 20px;
+  margin-bottom: 15px;
+}
+
+.summit-pic-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;  
+}
+
+.summit-pics-list {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  gap: 12px;
+}
+
+.summit-pics-list-type {
+ list-style-type: none; 
+}
+
+.summit-pic {
+ border-radius: 8px;
+ position: relative;
+}
+
+.color-layer {
+background: linear-gradient(rgba(231, 76, 60, 0.6), rgba(231, 76, 60, 0.6));
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+}
+
+.img-content {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  z-index: 2;
+  width: 100%;
+}
+
+.img-date {
+  font-size: 30px;
+  font-weight: 600;
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.footer-page {
+  background-color: #272a31;
+}
+
+.footer-text {
+  color: #fff;
+}
