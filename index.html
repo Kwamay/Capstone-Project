@@ -6,6 +6,8 @@
     <title>Glorious Vineyard Of Christ Chapel</title>
     <link rel="stylesheet" href="assets/css/desk-home.css" />
     <link rel="stylesheet" href="assets/css/mob-home.css" />
+    <link rel="stylesheet" href="assets/css/mob-about.css" />
+
     <link
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
@@ -39,14 +41,12 @@
           />
           <a class="links" href="#home">
             <div class="logo">
-              <img src="assets/images/icons/Logo.jpg"
-              width="200"
-              height="70" />
+              <img src="assets/images/icons/Logo.jpg" width="200" height="70" />
             </div>
           </a>
         </nav>
-        <ul class="header-below-list">
-          <li class="header-below-content close mobile">
+        <ul class="header-below-list mobile">
+          <li class="header-below-content close">
             <span class="material-symbols-outlined"> close </span>
           </li>
           <a href="about.html" class="links">
@@ -121,8 +121,8 @@
             />
             <h4 class="program-title">Health Work</h4>
             <h3 class="program-text">
-              21 Days Fasting and Prayer Connection. You shall receive power
-              when the Holy Sprit comes upon you..... Acts 1:18
+              A short group walks organized by GVCC, led by trained Walk Leaders
+              to exercise our bodies and release stress.
             </h3>
           </li>
           <li class="program-content">
@@ -137,11 +137,8 @@
             </h3>
           </li>
           <li class="program-content">
-            <img
-              src="./assets/images/icons/lecture_icon.png"
-              class="program-pic"
-            />
-            <h4 class="program-title">Fasting & Prayers</h4>
+            <img src="./assets/images/icons/ignite.png" class="program-pic" />
+            <h4 class="program-title">Celebration Service</h4>
             <h3 class="program-text">
               21 Days Fasting and Prayer Connection. You shall receive power
               when the Holy Sprit comes upon you..... Acts 1:18
@@ -149,7 +146,7 @@
           </li>
         </ul>
         <h3 class="whole-program desktop">SEE THE WHOLE PROGRAM</h3>
-        <button class="join mobile">Join Convocation Summit 2024</button>
+        <button class="join close">Join Convocation Summit 2024</button>
       </div>
     </section>
     <!-- Speakers Features -->
@@ -169,10 +166,10 @@
               <h4 class="position">
                 Global Overseer of Glorious Vineyard of Christ
               </h4>
-              <h5 class="biography">
+              <p class="biography">
                 Aps. Cm. Frank Owusu oversees all the affairs of the ministry
                 and acts as the sernior servant of the ministry.
-              </h5>
+              </p>
             </div>
           </li>
           <li class="speakers-list-items">
@@ -180,90 +177,105 @@
               src="assets/images/speakers/Pastor.jpg"
               width="178"
               height="177"
+              class="speaker"
             />
             <div class="speaker-details">
               <h3 class="name">Ps. Robert Agyemang</h3>
               <h4 class="position">
                 Global Chairman of Glorious Vineyard of Christ
               </h4>
-              <h5 class="biography">
+              <p class="biography">
                 Ps. Robert is the senior care taker of the ministry. He takes
                 care of the sheep (member) in the ministry.
-              </h5>
+              </p>
             </div>
           </li>
-          <li class="speakers-list-items">
+          <li class="speakers-list-items show-mobile hide">
             <img
               src="assets/images/speakers/Ohemaa.jpg"
               width="178"
               height="177"
+              class="speaker"
             />
             <div class="speaker-details">
               <h3 class="name">Apst. Agartha. Owusu</h3>
               <h4 class="position">
                 Global Chief Sheperd of Glorious Vineyard of Christ
               </h4>
-              <h5 class="biography">
+              <p class="biography">
                 Aps. Agartha Owusu is the senior advisor of of the ministry. She
                 is in charge of giving counselling to the members to the
                 ministry.
-              </h5>
+              </p>
             </div>
           </li>
-          <li class="speakers-list-items">
+          <li class="speakers-list-items show-mobile hide">
             <img
               src="assets/images/speakers/dEBBY.jpg"
               width="178"
               height="177"
+              class="speaker"
             />
             <div class="speaker-details">
               <h3 class="name">Min. Deborah Anaba</h3>
               <h4 class="position">
                 Resident Pastor of Glorious Vineyard of Christ
               </h4>
-              <h5 class="biography">
+              <p class="biography">
                 Min. Deborah is the Senior Watchman of the Sheep and Head
                 Minister in the ministryand oversee the activities of all other
                 Executives of the ministry.
-              </h5>
+              </p>
             </div>
           </li>
-          <li class="speakers-list-items">
+          <li class="speakers-list-items show-mobile hide">
             <img
               src="assets/images/speakers/Princess.jpg"
               width="178"
               height="177"
+              class="speaker"
             />
             <div class="speaker-details">
               <h3 class="name">Min. Harriet Opoku</h3>
               <h4 class="position">
                 Music Directress of Glorious Vineyard of Christ
               </h4>
-              <h5 class="biography">
+              <p class="biography">
                 Min. Harriet oversee all the activites of the Music Ministry
                 including Choreography, Drama and Instrumentation and serves as
                 the Third Head Executives.
-              </h5>
+              </p>
             </div>
           </li>
-          <li class="speakers-list-items">
+          <li class="speakers-list-items show-mobile hide">
             <img
               src="assets/images/speakers/Desy.jpg"
               width="178"
               height="177"
+              class="speaker"
             />
             <div class="speaker-details">
               <h3 class="name">Min. Desmond Opoku</h3>
               <h4 class="position">
                 Assit. Evangelism Director of Glorious Vineyard of Christ
               </h4>
-              <h5 class="biography">
+              <p class="biography">
                 Min. Desmond assist the Evangelism Director in the church and
                 also serve as the Head of the Children's Ministery.
-              </h5>
+              </p>
             </div>
           </li>
         </ul>
+        <div class="more-content">
+          <button id="see-more-btn" class="show-more">
+            More
+            <img
+              src="assets/images/icons/arrow_down.png"
+              class="arrow-down"
+              alt=""
+            />
+          </button>
+        </div>
       </div>
     </section>
     <!-- Partners -->

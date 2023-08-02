@@ -7,6 +7,25 @@
     box-sizing: border-box;
   }
 
+  .header-below-list {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 2rem;
+  }
+
+  .header-below-content {
+    font-size: 30px;
+    font-weight: 400;
+    color: #fff;
+  }
+
+  .cc-btn {
+    border: none;
+    padding: 0;
+  }
+  
   body {
     font-family: "Lato" sans-serif;
   }
@@ -83,8 +102,44 @@
     padding: 0 30px;
   }
 
-  .speakers-list-items {
+  .speakers-list-items, 
+  .show-mobile {
     width: 100%;
+  }
+
+  .more-content {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin: 0 5px;
+  }
+
+  .show-more {
+    flex: 1;
+   padding: 12px 8rem;
+   font-size: 20px;
+   font-weight: 300;
+   width: 100%;
+   color: #000;
+   background-color: #fff;
+   border-radius: 6px;
+   gap: 16px;
+  }
+
+  .see-less {
+    flex: 1;
+    padding: 12px 8rem;
+    font-size: 20px;
+    font-weight: 300;
+    width: 100%;
+    color: #000;
+    background-color: #fff;
+    border-radius: 6px;
+    gap: 16px;
+  }
+
+  .arrow-down {
+    padding-left: 16px;
   }
 
   .mobile.show {
@@ -103,8 +158,13 @@
     z-index: 2;
   }
 
+  
+
   .mobile,
-  .hamburger {
+  .hamburger,
+  .close,
+  .show-more,
+  .hide {
     display: block;
   }
 
@@ -112,7 +172,8 @@
   .header-below-list,
   .header-above,
   .partner-page,
-  .footer-page {
+  .footer-page, 
+  .show-mobile {
     display: none;
   }
 }
