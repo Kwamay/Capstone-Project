@@ -46,6 +46,13 @@ It also allows the student to showcase what they can do to the future employee.
 - Use the semantics elements💯
 -  Use the linter for fixing errors .🚀
 - Use the flexbox to place the items 😃👍
+- Dekstop view for the Home page
+- Mobile view for the Home page
+- Desktop view for the About page
+- Mobile view for the About page
+- Collapsing/Expanding of speakers list in Mobile view
+- Automation of Hamburger menu in Mobile
+- Dynamic creation of speakers using JavaScript
 
 <!-- GETTING STARTED -->
 

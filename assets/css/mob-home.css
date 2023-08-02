@@ -1,0 +1,118 @@
+@media screen and (max-width: 768px) {
+  @import url("https://fonts.googleapis.com/css2?family=Gothic+A1:wght@100;200;300;400;500;600;700;800;900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: "Lato" sans-serif;
+  }
+
+  .mob-header {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 5rem;
+    margin-left: 23px;
+  }
+
+  .conference-content {
+    padding: 109px 20px 79px;
+  }
+
+  .conference-intro {
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 38px;
+  }
+
+  .first-text {
+    font-size: 15px;
+    font-weight: 300;
+    text-align: left;
+  }
+
+  .program-details{
+   display: flex;
+   flex-direction: column;
+   padding: 0;
+  }
+
+  .program-content {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    gap: 22px;
+  }
+
+  .program-title {
+    width: 15%;
+    line-height: 15px;
+  }
+
+  .program-text {
+    text-align: left;
+    width: 50%;
+  }
+
+  .logo {
+    margin-left: 0;
+  }
+
+  .join {
+    padding: 15px 20px;
+    color: #fff;
+    background-color: #ec5242;
+    border-radius: 6px;
+    font-size: 20px;
+    font-weight: 500;
+  }
+
+  .main-program-content {
+    padding: 5rem 12px 4rem
+  }
+
+  .speakers-content {
+    padding: 2rem 0px 2rem;
+  }
+
+  .speakers-list{
+    padding: 0 30px;
+  }
+
+  .speakers-list-items {
+    width: 100%;
+  }
+
+  .mobile.show {
+    display: flex;
+    padding-top: 20px;
+    padding-left: 15px;
+    position: fixed;
+    background-color: #ec5342a4;
+    backdrop-filter: blur(5px);
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    text-decoration: none;
+    color: black;
+    z-index: 2;
+  }
+
+  .mobile,
+  .hamburger {
+    display: block;
+  }
+
+  .desktop,
+  .header-below-list,
+  .header-above,
+  .partner-page,
+  .footer-page {
+    display: none;
+  }
+}

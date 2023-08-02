@@ -1,0 +1,123 @@
+@media screen and (max-width: 768px) {
+  @import url("https://fonts.googleapis.com/css2?family=Gothic+A1:wght@100;200;300;400;500;600;700;800;900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: "Lato" sans-serif;
+  }
+
+  .mob-header {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 5rem;
+    margin-left: 23px;
+  }
+
+  .first-text {
+    width: 100vw;
+    text-align: center;
+  }
+
+  .page-intro {
+    text-align: center;
+    line-height: 35px;
+  }
+
+  .second-text {
+    width: 80vw;
+  }
+
+  .logo-text {
+    width: 80%;
+  }
+
+  .summit-text{
+    text-align: center;
+  }
+
+  .summit-pics-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    gap: 12px;
+  }
+
+  .partner-page {
+    background-image: url(/assets/images/partners/partner-bg.png);
+  }
+  
+  .partner-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    padding: 2rem 0 3rem;
+  }
+  
+  .partner {
+    color: #d3d3d3;
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 30px;
+    padding-bottom: 12px;
+    border-bottom: 2px solid #ec5242;
+  }
+  
+  .partner-list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 15px;
+    width: 50vw;
+  }
+  
+  .partner-list-item {
+    list-style-type: none;
+  }
+
+  .footer-page {
+    padding: 0 2rem;
+    background-color: #fff;
+  }
+  
+  .footer-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  
+  .footer-list {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 28px;
+  }
+  
+  .footer-list-type {
+    list-style-type: none;
+  }
+  
+  .footer-text {
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 19px;
+    color: #272a31;
+  }
+  
+  .mobile,
+  .partner-page,
+  .footer-page {
+    display: block;
+  }
+
+  .desktop {
+    display: none;
+  }
+  
+}

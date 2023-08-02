@@ -5,7 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Glorious Vineyard Of Christ Chapel</title>
     <link rel="stylesheet" href="assets/css/desk-home.css" />
-    <link rel="stylesheet" href="assets/css/about.css" />
+    <link rel="stylesheet" href="assets/css/desk-about.css" />
+    <link rel="stylesheet" href="assets/css/mob-home.css" />
+    <link rel="stylesheet" href="assets/css/mob-about.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
   </head>
   <body>
     <header>
@@ -25,13 +31,24 @@
         <li class="header-above-content">Logout</li>
       </ul>
       <nav class="header-below">
-        <a class="links" href="#home">
-          <div class="logo">
-            <img src="assets/images/icons/Logo.jpg" width="200" height="70" />
-          </div>
-        </a>
+        <nav class="mob-header">
+          <img
+            src="assets/images/icons/mobile_menu 1.png"
+            class="hamburger"
+            width="40"
+            height="40"
+          />
+          <a class="links" href="index.html">
+            <div id="nav-button" class="logo">
+              <img src="assets/images/icons/Logo.jpg" width="200" height="70" />
+            </div>
+          </a>
+        </nav>
         <ul class="header-below-list">
-          <a href="#about" class="links">
+          <li class="header-below-content close">
+            <span class="material-symbols-outlined"> close </span>
+          </li>
+          <a href="index.html" class="links">
             <li class="header-below-content">Home</li>
           </a>
           <a href="#program" class="links">
@@ -133,6 +150,30 @@
         </div>
       </div>
     </section>
+    <!-- Partners -->
+    <section class="partner-page">
+      <div class="partner-content">
+        <h3 class="partner">Partner</h3>
+        <ul class="partner-list">
+          <li class="partner-list-item">
+            <img src="assets/images/partners/mozilla 1.png" />
+          </li>
+          <li class="partner-list-item">
+            <img src="assets/images/partners/googlekorea 1.png" />
+          </li>
+          <li class="partner-list-item">
+            <img src="assets/images/partners/naver 1.png" />
+          </li>
+          <li class="partner-list-item">
+            <img src="assets/images/partners/daumkakaologo 1.png" />
+          </li>
+          <li class="partner-list-item">
+            <img src="assets/images/partners/airbnb 1.png" />
+          </li>
+        </ul>
+      </div>
+    </section>
+
     <!-- Footer -->
     <section class="footer-page">
       <div class="footer-content">
@@ -141,9 +182,14 @@
             <img
               src="assets/images/icons/GVCC logo PNG.png"
               alt="logo"
-              class="footer-logo"
+              class="footer-logo desktop"
               width="350"
               height="153"
+            />
+            <img
+              src="assets/images/icons/Logo.jpg"
+              alt="logo"
+              class="footer-logo mobile"
             />
           </li>
           <li class="footer-list-type">
@@ -155,5 +201,6 @@
         </ul>
       </div>
     </section>
+    <script src="assets/js/script.js"></script>
   </body>
 </html>
