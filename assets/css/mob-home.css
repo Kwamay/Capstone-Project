@@ -7,6 +7,10 @@
     box-sizing: border-box;
   }
 
+  .header-below {
+    padding: 0;
+  }
+
   .header-below-list {
     display: flex;
     flex-direction: column;
@@ -25,7 +29,7 @@
     border: none;
     padding: 0;
   }
-  
+
   body {
     font-family: "Lato" sans-serif;
   }
@@ -33,9 +37,18 @@
   .mob-header {
     display: flex;
     align-items: center;
-    justify-content: flex-start;
-    gap: 5rem;
+    width: 100%;
     margin-left: 23px;
+  }
+
+  .links {
+   display: flex;
+   justify-content: center;
+   padding: 0;
+  
+  }
+  .links-hamburger {
+    width: 100%;
   }
 
   .conference-content {
@@ -54,10 +67,10 @@
     text-align: left;
   }
 
-  .program-details{
-   display: flex;
-   flex-direction: column;
-   padding: 0;
+  .program-details {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
   }
 
   .program-content {
@@ -91,18 +104,18 @@
   }
 
   .main-program-content {
-    padding: 5rem 12px 4rem
+    padding: 5rem 12px 4rem;
   }
 
   .speakers-content {
     padding: 2rem 0px 2rem;
   }
 
-  .speakers-list{
+  .speakers-list {
     padding: 0 30px;
   }
 
-  .speakers-list-items, 
+  .speakers-list-items,
   .show-mobile {
     width: 100%;
   }
@@ -116,14 +129,14 @@
 
   .show-more {
     flex: 1;
-   padding: 12px 8rem;
-   font-size: 20px;
-   font-weight: 300;
-   width: 100%;
-   color: #000;
-   background-color: #fff;
-   border-radius: 6px;
-   gap: 16px;
+    padding: 12px 8rem;
+    font-size: 20px;
+    font-weight: 300;
+    width: 100%;
+    color: #000;
+    background-color: #fff;
+    border-radius: 6px;
+    gap: 16px;
   }
 
   .see-less {
@@ -158,8 +171,6 @@
     z-index: 2;
   }
 
-  
-
   .mobile,
   .hamburger,
   .close,
@@ -172,7 +183,7 @@
   .header-below-list,
   .header-above,
   .partner-page,
-  .footer-page, 
+  .footer-page,
   .show-mobile {
     display: none;
   }
