@@ -8,7 +8,7 @@
   }
 
   body {
-    font-family: "Lato" sans-serif;
+    font-family: 'Lato' sans-serif;
   }
 
   .mob-header {
@@ -36,7 +36,7 @@
     width: 80%;
   }
 
-  .summit-text{
+  .summit-text {
     text-align: center;
   }
 
@@ -51,7 +51,7 @@
   .partner-page {
     background-image: url(/assets/images/partners/partner-bg.png);
   }
-  
+
   .partner-content {
     display: flex;
     flex-direction: column;
@@ -59,7 +59,7 @@
     gap: 1rem;
     padding: 2rem 0 3rem;
   }
-  
+
   .partner {
     color: #d3d3d3;
     font-size: 35px;
@@ -67,7 +67,7 @@
     line-height: 30px;
     padding-bottom: 12px;
   }
- 
+
   .partner-list {
     display: flex;
     align-items: center;
@@ -78,42 +78,41 @@
   .partner-pic {
     width: 70%;
   }
-  
+
   .partner-list-item {
     list-style-type: none;
-    
   }
 
   .footer-page {
     padding: 0 2rem;
     background-color: #fff;
   }
-  
+
   .footer-content {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     width: 100%;
   }
-  
+
   .footer-list {
     display: flex;
     flex-direction: row;
     align-items: center;
     gap: 28px;
   }
-  
+
   .footer-list-type {
     list-style-type: none;
   }
-  
+
   .footer-text {
     font-size: 14px;
     font-weight: 400;
     line-height: 15px;
     color: #272a31;
   }
-  
+
   .mobile,
   .partner-page,
   .footer-page {
@@ -124,5 +123,4 @@
   .header-below-list {
     display: none;
   }
-  
 }

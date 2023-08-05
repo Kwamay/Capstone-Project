@@ -48,6 +48,7 @@ body {
 .header-below-list {
   display: flex;
   align-items: center;
+
   /* padding-right: 10%; */
   justify-content: flex-end;
   gap: 7%;
@@ -165,14 +166,13 @@ body {
 .check {
   position: relative;
 }
+
 .speakers-page {
   padding-bottom: 3rem;
 }
 
 .speakers-pic {
   position: absolute;
-  top: 20;
-  left: 30;
 }
 
 .speakers-list {
@@ -197,7 +197,7 @@ body {
   gap: 12px;
 }
 
-.speaker{
+.speaker {
   width: 178px;
   height: 177px;
 }
@@ -208,6 +208,16 @@ body {
   font-style: italic;
   color: #ec5242;
   line-height: 22px;
+}
+
+.position::after {
+  content: '';
+  height: 2px;
+  width: 30px;
+  background-color: #d3d3d3;
+  border-radius: 10px;
+  display: block;
+  margin-top: 0.8em;
 }
 
 .biography {
@@ -238,7 +248,7 @@ body {
   font-weight: 400;
   line-height: 30px;
   padding-bottom: 10px;
-   gap: 8px;
+  gap: 8px;
 }
 
 .main-program::after {
@@ -376,7 +386,7 @@ body {
 
 .close,
 .hidden,
-.hamburger, 
+.hamburger,
 .show-more {
   display: none;
 }
