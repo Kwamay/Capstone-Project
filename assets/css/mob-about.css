@@ -48,8 +48,8 @@
     gap: 12px;
   }
 
-  .partner-page {
-    background-image: url(/assets/images/partners/partner-bg.png);
+  .partner-page { 
+    background-color: #272a2f;
   }
 
   .partner-content {
