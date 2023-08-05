@@ -48,40 +48,30 @@
     gap: 12px;
   }
 
-  .partner-page { 
-    background-color: #272a2f;
-  }
+   .partner-page { 
+    height: 40vh;
+  } 
 
   .partner-content {
-    display: flex;
-    flex-direction: column;
     align-items: center;
-    gap: 1rem;
-    padding: 2rem 0 3rem;
+    padding: 10% 2% 2%; 
   }
 
-  .partner {
-    color: #d3d3d3;
-    font-size: 35px;
-    font-weight: 400;
-    line-height: 30px;
-    padding-bottom: 12px;
-  }
-
-  .partner-list {
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-    justify-content: center;
+  
+ .partner-list {
+   
+   width: 100%;
+   padding-left: 5%;
   }
 
   .partner-pic {
-    width: 70%;
+    width: 85%;
   }
 
   .partner-list-item {
     list-style-type: none;
-  }
+    width: 49%;
+  } 
 
   .footer-page {
     padding: 0 2rem;
