@@ -65,7 +65,7 @@ body {
 }
 
 .background-img {
-  background-image: url(/assets/images/background-desktop/cross.jpg);
+  background-image: url(../images/background-desktop/cross.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center bottom;
@@ -227,7 +227,7 @@ body {
 }
 
 .main-program-page {
-  background-image: url(/assets/images/background-desktop/main-bg.jpg);
+  background-image: url(../images/background-desktop/main-bg.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
