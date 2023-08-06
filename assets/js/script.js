@@ -25,7 +25,7 @@ const featureDetails = [
     featurePosition: 'Global Overseer of Glorious Vineyard of Christ',
     featureBiography: `Aps. Cm. Frank Owusu oversees all the affairs of the ministry
   and acts as the sernior servant of the ministry.`,
-    featureImage: 'assets/images/speakers/Commander.jpg',
+    featureImage: 'assets/images/speakers/commander.jpg',
   },
   {
     featureName: 'Ps. Robert Agyemang',
