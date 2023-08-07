@@ -39,7 +39,7 @@ It also allows the student to showcase what they can do to the future employee.
 
 ## 🚀 Live Demo
 
-- You can see the demo [Here]()
+- You can see the demo [Here](https://kwamay.github.io/Capstone-Project/)
 
 ## Key Features
 
