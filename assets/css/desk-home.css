@@ -164,7 +164,6 @@ body {
   margin-top: 0.8em;
 }
 
-
 .speakers-page {
   padding-bottom: 3rem;
 }
@@ -205,17 +204,17 @@ body {
 }
 
 .speaker {
-  width: 150px;
-  height: 100px;
+  width: 178px;
+  height: 177px;
   z-index: 4;
 }
 
 .position {
   font-size: 15px;
-  font-weight: 400;
+  font-weight: 700;
   font-style: italic;
   color: #ec5242;
-  line-height: 22px;
+  line-height: 21px;
 }
 
 .position::after {
@@ -229,9 +228,9 @@ body {
 }
 
 .biography {
-  font-size: 16px;
-  font-weight: 300;
-  line-height: 20px;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 24px;
 }
 
 .main-program-page {

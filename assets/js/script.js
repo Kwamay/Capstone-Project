@@ -10,7 +10,6 @@ navButton.addEventListener('click', () => {
 
 let showAll = false;
 const seeMoreBtn = document.getElementById('see-more-btn');
-// const additionalContent = document.querySelectorAll('.show-mobile');
 const seeLessBtn = document.createElement('button');
 seeLessBtn.textContent = 'See Less';
 seeLessBtn.style.display = 'none';
@@ -31,14 +30,14 @@ const featureDetails = [
   {
     featureName: 'Ps. Robert Agyemang',
     featurePosition: 'Global Chairman of Glorious Vineyard of Christ',
-    featureBiography: `Ps. Robert is the senior care taker of the ministry.`,
+    featureBiography: 'Ps. Robert is the senior care taker of the ministry.',
     featureImage: 'assets/images/speakers/Pastor.jpg',
     checkImage: 'assets/images/speakers/black&white_check.png',
   },
   {
     featureName: 'Apst. Agartha. Owusu',
     featurePosition: 'Global Sheperd of Glorious Vineyard of Christ',
-    featureBiography: `Aps. Agartha Owusu is the senior advisor of of the ministry..`,
+    featureBiography: 'Aps. Agartha Owusu is the senior advisor of of the ministry..',
     featureImage: 'assets/images/speakers/Ohemaa.jpg',
     checkImage: 'assets/images/speakers/black&white_check.png',
   },
@@ -53,7 +52,7 @@ const featureDetails = [
   {
     featureName: 'Min. Harriet Opoku',
     featurePosition: 'Music Directress of Glorious Vineyard of Christ',
-    featureBiography: ` Min. Harriet oversee all the activites of the Music Ministry`,
+    featureBiography: ' Min. Harriet oversee all the activites of the Music Ministry',
     featureImage: 'assets/images/speakers/Princess.jpg',
     checkImage: 'assets/images/speakers/black&white_check.png',
   },
@@ -61,7 +60,7 @@ const featureDetails = [
     featureName: 'Min. Desmond Opoku',
     featurePosition:
       'Assit. Evangelism Director of Glorious Vineyard of Christ',
-    featureBiography: `Min. Desmond assist the Evangelism Director in the church`,
+    featureBiography: 'Min. Desmond assist the Evangelism Director in the church',
     featureImage: 'assets/images/speakers/Desy.jpg',
     checkImage: 'assets/images/speakers/black&white_check.png',
   },
@@ -104,7 +103,7 @@ function populate() {
       div.appendChild(h3);
       div.appendChild(h4);
       div.appendChild(p1);
-      
+
       li.appendChild(checkImage);
       li.appendChild(img);
       li.appendChild(div);
@@ -130,13 +129,3 @@ seeLessBtn.addEventListener('click', () => {
 });
 
 seeMoreBtn.insertAdjacentElement('afterend', seeLessBtn);
-
-// document.addEventListener('DOMContentLoaded', function () {
-//   const menuToggle = document.getElementById('nav-button');
-//   const navMenu = document.getElementById("navMenu");
-
-//   menuToggle.addEventListener('click', function () {
-//     menuToggle.classList.toggle("active");
-//     navMenu.classList.toggle("open");
-//   });
-// });
