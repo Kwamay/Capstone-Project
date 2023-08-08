@@ -16,8 +16,13 @@
     align-items: center;
     justify-content: flex-start;
     margin-left: 23px;
+    background-color: #f4efef;
   }
 
+  .header-below {
+    background-color: #f4efef;
+  }
+  
   .first-text {
     width: 100vw;
     text-align: center;
@@ -49,12 +54,13 @@
   }
 
   .partner-page {
-    height: 40vh;
+    height: auto;
   }
 
   .partner-content {
     align-items: center;
-    padding: 10% 2% 2%;
+    padding: 1% 2% 2%;
+    display: flex;
   }
 
   .partner-list {
@@ -63,12 +69,13 @@
   }
 
   .partner-pic {
-    width: 85%;
+    width: 60%;
   }
 
   .partner-list-item {
     list-style-type: none;
-    width: 49%;
+    flex-wrap: wrap;
+    width: 150px;
   }
 
   .footer-page {

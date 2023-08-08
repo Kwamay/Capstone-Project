@@ -3,7 +3,7 @@ closeButton.addEventListener('click', () => {
   document.querySelector('.mobile').classList.toggle('show');
 });
 
-const navButton = document.querySelector('#nav-button');
+const navButton = document.getElementById('nav-button');
 navButton.addEventListener('click', () => {
   document.querySelector('.mobile').classList.toggle('show');
 });
@@ -26,44 +26,44 @@ const featureDetails = [
     featureBiography: `Aps. Cm. Frank Owusu oversees all the affairs of the ministry
   and acts as the sernior servant of the ministry.`,
     featureImage: 'assets/images/speakers/commander.jpg',
+    checkImage: 'assets/images/speakers/black&white_check.png',
   },
   {
     featureName: 'Ps. Robert Agyemang',
     featurePosition: 'Global Chairman of Glorious Vineyard of Christ',
-    featureBiography: `Ps. Robert is the senior care taker of the ministry. He takes
-  care of the sheep (member) in the ministry.`,
+    featureBiography: `Ps. Robert is the senior care taker of the ministry.`,
     featureImage: 'assets/images/speakers/Pastor.jpg',
+    checkImage: 'assets/images/speakers/black&white_check.png',
   },
   {
     featureName: 'Apst. Agartha. Owusu',
     featurePosition: 'Global Sheperd of Glorious Vineyard of Christ',
-    featureBiography: `Aps. Agartha Owusu is the senior advisor of of the ministry. She
-    is in charge of giving counselling to the members to the
-    ministry.`,
+    featureBiography: `Aps. Agartha Owusu is the senior advisor of of the ministry..`,
     featureImage: 'assets/images/speakers/Ohemaa.jpg',
+    checkImage: 'assets/images/speakers/black&white_check.png',
   },
   {
     featureName: 'Min. Deborah Anaba',
     featurePosition: 'Resident Pastor of Glorious Vineyard of Christ',
-    featureBiography: ` Min. Deborah is the Senior Watchman of the Sheep and Head
-  Minister in the ministryand oversee the activities of all other
+    featureBiography: ` Min. Deborah is the Senior Watchman of the Sheep 
   Executives of the ministry.`,
     featureImage: 'assets/images/speakers/dEBBY.jpg',
+    checkImage: 'assets/images/speakers/black&white_check.png',
   },
   {
     featureName: 'Min. Harriet Opoku',
     featurePosition: 'Music Directress of Glorious Vineyard of Christ',
-    featureBiography: ` Min. Harriet oversee all the activites of the Music Ministry
-    including Choreography, Drama and Instrumentation and serves as the Third Head Executives.`,
+    featureBiography: ` Min. Harriet oversee all the activites of the Music Ministry`,
     featureImage: 'assets/images/speakers/Princess.jpg',
+    checkImage: 'assets/images/speakers/black&white_check.png',
   },
   {
     featureName: 'Min. Desmond Opoku',
     featurePosition:
       'Assit. Evangelism Director of Glorious Vineyard of Christ',
-    featureBiography: `Min. Desmond assist the Evangelism Director in the church and
-    also serve as the Head of the Children's Ministery.`,
+    featureBiography: `Min. Desmond assist the Evangelism Director in the church`,
     featureImage: 'assets/images/speakers/Desy.jpg',
+    checkImage: 'assets/images/speakers/black&white_check.png',
   },
 ];
 
@@ -78,6 +78,7 @@ function populate() {
     .filter((eachElement, index) => (showAll || !isMobileView ? true : index < 2))
     .forEach((eachElement) => {
       const li = document.createElement('li');
+      const checkImage = document.createElement('img');
       const img = document.createElement('img');
       const div = document.createElement('div');
       const h3 = document.createElement('h3');
@@ -90,9 +91,12 @@ function populate() {
       h3.classList.add('name');
       div.classList.add('speaker-details');
       p1.className = 'biography';
+      checkImage.classList.add('check-image');
 
       img.src = eachElement.featureImage;
       img.alt = `${eachElement.featureName} image`;
+      checkImage.src = eachElement.checkImage;
+      checkImage.alt = `${eachElement.featureName} image`;
       h3.innerText = eachElement.featureName;
       h4.innerText = eachElement.featurePosition;
       p1.innerText = eachElement.featureBiography;
@@ -100,7 +104,8 @@ function populate() {
       div.appendChild(h3);
       div.appendChild(h4);
       div.appendChild(p1);
-
+      
+      li.appendChild(checkImage);
       li.appendChild(img);
       li.appendChild(div);
 
@@ -125,3 +130,13 @@ seeLessBtn.addEventListener('click', () => {
 });
 
 seeMoreBtn.insertAdjacentElement('afterend', seeLessBtn);
+
+// document.addEventListener('DOMContentLoaded', function () {
+//   const menuToggle = document.getElementById('nav-button');
+//   const navMenu = document.getElementById("navMenu");
+
+//   menuToggle.addEventListener('click', function () {
+//     menuToggle.classList.toggle("active");
+//     navMenu.classList.toggle("open");
+//   });
+// });

@@ -9,6 +9,14 @@
 
   .header-below {
     padding: 0;
+    position: relative;
+  }
+
+  .hamburger {
+    position: absolute;
+    top: 15px;
+    left: 5%;
+    z-index: 2;
   }
 
   .header-below-list {
@@ -17,6 +25,33 @@
     align-items: flex-start;
     justify-content: flex-start;
     gap: 2rem;
+  }
+
+  .menu-toggle {
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    padding: 10px;
+  }
+
+  .bar {
+    width: 30px;
+    height: 3px;
+    background-color: #333;
+    margin: 3px 0;
+    transition: 0.4s;
+  }
+
+  .menu-toggle.active .bar:nth-child(1) {
+    transform: rotate(-45deg) translate(-5px, 6px);
+  }
+
+  .menu-toggle.active .bar:nth-child(2) {
+    opacity: 0;
+  }
+
+  .menu-toggle.active .bar:nth-child(3) {
+    transform: rotate(45deg) translate(-5px,  -6px);
   }
 
   .header-below-content {
@@ -31,7 +66,7 @@
   }
 
   body {
-    font-family: 'Lato', sans-serif;
+    font-family: "Lato", sans-serif;
   }
 
   .mob-header {
@@ -49,6 +84,10 @@
 
   .links-hamburger {
     width: 100%;
+  }
+
+  .conference-page {
+    padding: 0 4%;
   }
 
   .conference-content {
@@ -76,8 +115,8 @@
   .program-content {
     display: flex;
     flex-direction: row;
-    width: 100%;
-    gap: 22px;
+    flex: 1;
+    gap: 10px;
   }
 
   .program-title {
@@ -87,7 +126,7 @@
 
   .program-text {
     text-align: left;
-    width: 50%;
+    width: 100%;
   }
 
   .logo {
@@ -118,6 +157,11 @@
   .speakers-list-items,
   .show-mobile {
     width: 100%;
+  }
+
+  .speaker {
+    width: 107px;
+    height: 125px;
   }
 
   .more-content {
@@ -155,6 +199,16 @@
     padding-left: 16px;
   }
 
+  .position {
+    font-size: 10px;
+    font-weight: 700;
+  }
+
+  .biography {
+    font-size: 9px;
+    font-weight: 700;
+  }
+
   .mobile.show {
     display: flex;
     padding-top: 20px;
@@ -184,7 +238,8 @@
   .header-above,
   .partner-page,
   .footer-page,
-  .show-mobile {
+  .show-mobile,
+  .logo {
     display: none;
   }
 }

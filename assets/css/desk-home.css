@@ -38,6 +38,7 @@ body {
   align-items: flex-end;
   justify-content: space-between;
   padding: 0 10%;
+  background-color: transparent;
 }
 
 .links {
@@ -163,9 +164,6 @@ body {
   margin-top: 0.8em;
 }
 
-.check {
-  position: relative;
-}
 
 .speakers-page {
   padding-bottom: 3rem;
@@ -189,6 +187,15 @@ body {
   gap: 18px;
   width: 50%;
   margin-top: 30px;
+  position: relative;
+}
+
+.check-image {
+  position: absolute;
+  top: -9%;
+  left: -2%;
+  width: 60px;
+  z-index: 2;
 }
 
 .speaker-details {
@@ -198,12 +205,13 @@ body {
 }
 
 .speaker {
-  width: 178px;
-  height: 177px;
+  width: 150px;
+  height: 100px;
+  z-index: 4;
 }
 
 .position {
-  font-size: 17px;
+  font-size: 15px;
   font-weight: 400;
   font-style: italic;
   color: #ec5242;
@@ -279,8 +287,12 @@ body {
   flex: 1;
   gap: 8px;
   background-color: #1b1c20bc;
-  flex-wrap: wrap;
   padding: 20px 8px;
+}
+
+.program-content:hover {
+  border: 1.5px solid #fff;
+  cursor: pointer;
 }
 
 .program-title {
