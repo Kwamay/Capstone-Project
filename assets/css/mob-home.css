@@ -1,0 +1,218 @@
+@media screen and (max-width: 768px) {
+  @import url("https://fonts.googleapis.com/css2?family=Gothic+A1:wght@100;200;300;400;500;600;700;800;900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .header-below {
+    padding: 0;
+    position: relative;
+  }
+
+  .hamburger {
+    position: absolute;
+    top: 15px;
+    left: 5%;
+    z-index: 2;
+  }
+
+  .header-below-list {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 2rem;
+  }
+
+  .header-below-content {
+    font-size: 30px;
+    font-weight: 400;
+    color: #fff;
+  }
+
+  .cc-btn {
+    border: none;
+    padding: 0;
+  }
+
+  body {
+    font-family: "Lato", sans-serif;
+  }
+
+  .mob-header {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-left: 23px;
+  }
+
+  .links {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+  }
+
+  .links-hamburger {
+    width: 100%;
+  }
+
+  .conference-page {
+    padding: 0 4%;
+  }
+
+  .conference-content {
+    padding: 109px 20px 79px;
+  }
+
+  .conference-intro {
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 38px;
+  }
+
+  .first-text {
+    font-size: 15px;
+    font-weight: 300;
+    text-align: left;
+  }
+
+  .program-details {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+  }
+
+  .program-content {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    gap: 10px;
+  }
+
+  .program-title {
+    width: 15%;
+    line-height: 15px;
+  }
+
+  .program-text {
+    text-align: left;
+    width: 100%;
+  }
+
+  .logo {
+    margin-left: 0;
+  }
+
+  .join {
+    padding: 15px 20px;
+    color: #fff;
+    background-color: #ec5242;
+    border-radius: 6px;
+    font-size: 20px;
+    font-weight: 500;
+  }
+
+  .main-program-content {
+    padding: 5rem 12px 4rem;
+  }
+
+  .speakers-content {
+    padding: 2rem 0 2rem;
+  }
+
+  .speakers-list {
+    padding: 0 30px;
+  }
+
+  .speakers-list-items,
+  .show-mobile {
+    width: 100%;
+  }
+
+  .speaker {
+    width: 125px;
+    height: 125px;
+  }
+
+  .more-content {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin: 0 5px;
+  }
+
+  .show-more {
+    flex: 1;
+    padding: 12px 8rem;
+    font-size: 20px;
+    font-weight: 300;
+    width: 100%;
+    color: #000;
+    background-color: #fff;
+    border-radius: 6px;
+    gap: 16px;
+  }
+
+  .see-less {
+    flex: 1;
+    padding: 12px 8rem;
+    font-size: 20px;
+    font-weight: 300;
+    width: 100%;
+    color: #000;
+    background-color: #fff;
+    border-radius: 6px;
+    gap: 16px;
+  }
+
+  .arrow-down {
+    padding-left: 16px;
+  }
+
+  .position {
+    font-size: 10px;
+    font-weight: 700;
+  }
+
+  .biography {
+    font-size: 9px;
+    font-weight: 700;
+  }
+
+  .mobile.show {
+    display: flex;
+    padding-top: 20px;
+    padding-left: 15px;
+    position: fixed;
+    background-color: #ec5342a4;
+    backdrop-filter: blur(5px);
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    text-decoration: none;
+    color: black;
+    z-index: 2;
+  }
+
+  .mobile,
+  .hamburger,
+  .close,
+  .show-more,
+  .hide {
+    display: block;
+  }
+
+  .desktop,
+  .header-below-list,
+  .header-above,
+  .partner-page,
+  .footer-page,
+  .show-mobile,
+  .logo {
+    display: none;
+  }
+}
